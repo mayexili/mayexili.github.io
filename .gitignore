@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Hexo generated output (built in CI)
+public/
+
+# Hexo database cache
+db.json
+
+# hexo-deployer-git temp dir
+.deploy_git/
+
+# Misc
+.DS_Store
+*.log
