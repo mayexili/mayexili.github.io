@@ -4,12 +4,12 @@
 
 # Site
 title: Maye 的博客
-subtitle: ''
+subtitle: '记录技术与生活'
 description: '个人博客 · 技术随笔与日常记录'
 keywords:
 author: mayexili
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: my-theme
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
