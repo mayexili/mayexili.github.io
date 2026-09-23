@@ -123,6 +123,30 @@ theme_config:
     size: small
     post: true
 
+  # 顶部阅读进度条（文章页顶部细条）
+  reading_progress:
+    enable: true
+
+  # 不蒜子（busuanzi）访客/阅读量统计
+  busuanzi_count:
+    enable: true
+    total_visitors: true
+    total_visitors_icon: fa fa-user
+    total_views: true
+    total_views_icon: fa fa-eye
+    post_views: true
+    post_views_icon: fa fa-eye
+
+  # 评论系统：utterances（基于 GitHub Issues，免后端）
+  utterances:
+    enable: true
+    repo: mayexili/mayexili.github.io
+    issue_term: pathname
+    label: Comment
+    theme:
+      dark: github-dark
+      light: github-light
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 ## 主推方式：GitHub Actions（仓库 Settings → Pages → Source 选 GitHub Actions，自动构建发布）
