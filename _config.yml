@@ -96,7 +96,32 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: my-theme
+theme: next
+
+# NexT 主题配置（Alternate Theme Config，不修改 themes/next/_config.yml 本身，避免日后升级冲突）
+theme_config:
+  scheme: Gemini
+  menu:
+    home: / || fa fa-home
+    archives: /archives/ || fa fa-archive
+    categories: /categories/ || fa fa-th
+    tags: /tags/ || fa fa-tags
+    about: /about/ || fa fa-user
+  sidebar:
+    position: left
+    display: always
+  back2top:
+    enable: true
+    sidebar: false
+    scrollpercent: true
+  codeblock:
+    copy_button:
+      enable: true
+      show_result: true
+  creative_commons:
+    license: by-nc-sa
+    size: small
+    post: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
