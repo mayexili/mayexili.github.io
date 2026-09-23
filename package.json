@@ -23,7 +23,7 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "@adobe/css-tools": "^4.3.0",
+    "@adobe/css-tools": "^4.5.0",
     "js-yaml": "^4.1.0"
   }
 }
