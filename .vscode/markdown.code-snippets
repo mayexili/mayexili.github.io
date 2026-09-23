@@ -1,0 +1,33 @@
+{
+  "Hexo 文章模板 (hexo)": {
+    "scope": "markdown",
+    "prefix": "hexo",
+    "body": [
+      "---",
+      "title: ${1:${TM_FILENAME_BASE}}",
+      "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+      "updated: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+      "tags: [${2}]",
+      "categories: [${3}]",
+      "comments: true",
+      "---",
+      "",
+      "$0"
+    ],
+    "description": "新建 Hexo 文章时自动生成的 Front-matter（标题/日期/标签/分类/评论开关）"
+  },
+  "Hexo 独立页面模板 (hexopage)": {
+    "scope": "markdown",
+    "prefix": "hexopage",
+    "body": [
+      "---",
+      "title: ${1:${TM_FILENAME_BASE}}",
+      "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+      "comments: false",
+      "---",
+      "",
+      "$0"
+    ],
+    "description": "新建 Hexo 独立页面（关于/友链等）的 Front-matter 模板"
+  }
+}
